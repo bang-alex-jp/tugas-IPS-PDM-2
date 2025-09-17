@@ -53,8 +53,10 @@ main(){
 		printf("Predikat: Cum Laude");
 	} else if ((IPS>=3.00)&&(IPS<=3.50)){
 		printf("Predikat: High Merit");
+	} else if ((IPS>=2.00)&&(IPS<=2.99)){
+		printf("Predikat: Lulus Biasa");
 	} else {
-		printf("Predikat: Lulus biasa");
+		printf("Predikat: Tidak Lulus");
 	}
 
 	return 0;
